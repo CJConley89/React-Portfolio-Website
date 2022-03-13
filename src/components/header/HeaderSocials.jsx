@@ -1,7 +1,6 @@
 import React from 'react'
 import {SiIndeed} from 'react-icons/si'
 import {FaGithub} from 'react-icons/fa'
-import {FiDribbble} from 'react-icons/fi'
 
 const HeaderSocials = () => {
   return (
