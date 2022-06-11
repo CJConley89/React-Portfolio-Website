@@ -41,7 +41,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        {/*END OFWeb Development */}
+        {/*END OF Web Development */}
 
         <article className='service'>
           <div className="service__head">

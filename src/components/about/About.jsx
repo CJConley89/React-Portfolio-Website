@@ -24,7 +24,8 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>4+ Years</small>  
+              <small>5+ Years</small>  
+              <small><i><br></br> working in the development field since 2017</i></small>
             </article>
 
             <article className='about__card'>
@@ -43,7 +44,10 @@ const About = () => {
           </div> 
 
           <p>
-            Federal Contactor - Working for ECS Federal on their contract with USPS has given me experience with working on a multitude of applications. These applications range in scope and complexity from  small maintenance apps for our data scientists to our international scale applications that help to keep the Postal Service running. I have a desire to learn new technologies and to determine if they are applicable for my current organization.
+            Hello, my name is Christopher and I am a full stack web developer who tries to put the focus on clean, minimalist, and object oriented code. I have experience setting up database schemas and virtual web servers as well as creating the front end pages our end users utilize to complete their daily tasks.
+          </p>
+          <p>  
+            Currently I am a federal contractor working for ECS Federal on their contract with USPS has given me experience with working on a multitude of applications. These applications range in scope and complexity from  small maintenance apps for our data scientists to our international scale applications that help to keep the Postal Service running. I have a desire to learn new technologies and to determine if they are applicable for my current organization.
           </p> 
           
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
