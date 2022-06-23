@@ -17,8 +17,8 @@ const data = [
     id: 2, 
     image: IMG1,
     credit: 'Photo by Daniel Korpai on Unsplash',
-    title: 'Art Gallery',
-    description: 'Simple, minimalistic template that can be used to showcase artwork. Responsive web page that focuses on showing art for a artist.'
+    title: 'ArcGIS API Testing',
+    description: 'Showcasing the ArcGIS API to create a map and perform spatial analysis on the geography of the land. '
   },
   {
     id: 3, 
@@ -32,7 +32,7 @@ const data = [
     image: IMG2,
     credit: 'Photo by Ferenc Almasi on Unsplash',
     title: 'Conference Department Portal',
-    description: 'Another internal resource project. This was a solo project that was a new creation to replace their paper record keeping setup at the time.'
+    description: 'This was another interal resource project. The Conference Department Portal was a solo project that was a new creation to replace their paper record keeping setup at the time. Setup a LAMP stack from scratch on new hardware, created digital version of all forms and documents required for the department using HTML, CSS, PHP, JS, jQuery, AJAX, JS, and '
   }
 ]
 
