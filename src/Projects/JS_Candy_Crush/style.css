@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------ PURE CSS MOUNTAINS -----------------------\
+-adapted from Arjun Khara's YT concepts
+*/
+
+body {
+    background: #79daf3;;
+}
+
+/*MOUNTAIN - MAIN*/
+.snow {
+    position: absolute;
+    content: '';
+    bottom: -98px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid white;
+    z-index: 6;
+}
+
+.snow-shadow {
+    position: absolute;
+    content: '';
+    bottom: -87px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 35px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 100px solid rgb(201, 199, 199);
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.mountain {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 120px;
+    border-top: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-left: 180px solid transparent;
+    border-bottom: 350px solid #4fb66e;
+    z-index: 5;
+}
+
+.mountain-shadow {
+    position: absolute;
+    content: 0;
+    bottom: 0;
+    left: 300px;
+    border-top: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 350px solid #357639;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg);
+}
+
+/*MOUNTAIN - 1*/
+.mountain-1 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 70px;
+    border-top: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-left: 130px solid transparent;
+    border-bottom: 250px solid #4fb66e;
+    z-index: 5;
+}
+
+.mountain-shadow-1 {
+    position: absolute;
+    content: 0;
+    bottom: 0;
+    left: 200px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 250px solid #357639;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg);
+}
+
+/*MOUNTAIN - 2*/
+.mountain-2 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 380px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 180px solid #4fb66e;
+    z-index: 4;
+}
+
+.mountain-shadow-2 {
+    position: absolute;
+    content: 0;
+    bottom: 0;
+    left: 480px;
+    border-top: 0px solid transparent;
+    border-right: 70px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 180px solid #357639;
+    z-index: 4;
+    transform-origin: top right;
+    transform: skewX(18deg);
+}
+
+/*MOUNTAIN - 3*/
+.snow-3 {
+    position: absolute;
+    content: '';
+    bottom: -75px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 49px solid transparent;
+    border-left: 49px solid transparent;
+    border-bottom: 80px solid white;
+    z-index: 6;
+}
+
+.snow-shadow-3 {
+    position: absolute;
+    content: '';
+    bottom: -66px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 26px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 80px solid rgb(201, 199, 199);
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.mountain-3 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 1200px;
+    border-top: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
+    border-bottom: 300px solid #4fb66e;
+    z-index: 4;
+}
+
+.mountain-shadow-3 {
+    position: absolute;
+    content: 0;
+    bottom: 0;
+    left: 1400px;
+    border-top: 0px solid transparent;
+    border-right: 120px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 300px solid #357639;
+    z-index: 4;
+    transform-origin: top right;
+    transform: skewX(18deg);
+}
+
+.grid {
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 70px;
+    width: 70px;
+}
+
+.container {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#score-board {
+    width: 252px;
+    height: 380px;
+    margin-left: 156px;
+    float: left;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: inset 3px 3px 6px 7px rgb(110, 107, 107);
+}
+
+#player-board {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    float: left;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: inset 3px 3px 6px 7px rgb(110, 107, 107);
+    z-index: 99;
+}
+
+/* ---------------- BUTTON CONTENT ----------------- */
+.button {
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#start-btn, #play-again-btn {
+    background-color: #2ecc71;
+    border: 2px solid #20914f;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #18703d;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+#start-btn:hover, #play-again-btn:hover {
+    box-shadow: inset 0 0 100px 0 #18703d;
+}
+
+#stop-btn, #close {
+    background-color: #e74c3c;
+    border: 2px solid #cb4232;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #9e3226;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+#stop-btn:hover, #close:hover {
+    box-shadow: inset 0 0 100px 0 #5b160f;
+}
+
+/* ---------------- MODAL CONTENT ----------------- */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 101; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #888;
+    width: 30%; 
+  }

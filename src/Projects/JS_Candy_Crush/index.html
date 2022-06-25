@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Candy Crush in Javascript</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <script src="app.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id='header'><h1>A Candy Crush Clone</h1></div>
+        <div class='container'>
+            <div class='score-board' id='score-board'>
+                <h1>Time Left</h1>
+                <h1 id='time'>0</h1>
+                <h1>Score</h1>
+                <h1 id='score'>0</h1>
+                <div class='button-group'>
+                    <div class='button' id='start-btn'>Start Game</div>
+                    <div class='button' id='stop-btn'>Stop Game</div>
+                </div>
+            </div>
+            <div id='player-board'>
+                <div class="grid"></div>
+            </div>
+        </div>
+
+        <div id='gameOverModal' class='modal'>
+            <div class='modal-content'>
+                <h3 id='final-score'></h3>
+                <div class='modal-footer'>
+                    <div class='button' id='play-again-btn'>Play Again</div>
+                    <div class='button' id='close'>Close</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class='mountain'><div class='snow'></div></div>
+        <div class='mountain-shadow'><div class='snow-shadow'></div></div>
+        <div class='mountain-1'></div>
+        <div class='mountain-shadow-1'></div>
+        <div class='mountain-2'></div>
+        <div class='mountain-shadow-2'></div>
+        <div class='mountain-3'><div class='snow-3'></div></div>
+        <div class='mountain-shadow-3'><div class='snow-shadow-3'></div></div>
+    </body>
+</html>
