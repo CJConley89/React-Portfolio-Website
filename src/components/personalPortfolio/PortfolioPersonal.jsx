@@ -1,7 +1,7 @@
 import React from 'react'
 import './PortfolioPersonal.css'
 import IMG1 from '../../assets/ArcGIS_API_Testing.PNG'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/candy_crush.png'
 
 const data = [
   {
