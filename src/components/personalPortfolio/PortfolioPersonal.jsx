@@ -14,7 +14,7 @@ const data = [
   {
     id: 2, 
     image: IMG2,
-    title: 'Internal Employee Resource Center',
+    title: 'Candy Crush Clone',
     link: 'https://christopherjconley.com/Side_Projects/JS_Candy_Crush/index.html',
     description: 'Javascript project to create a Candy Crush clone. Pure Javascript and CSS used to style page and create minimalist landscape background. Will posibly come back and expand upon this at a later time to add a leader board and connect to a database table to store scores and user names.'
   }
