@@ -13,10 +13,10 @@ const data = [
   },
   {
     id: 2, 
-    image: IMG2,
+    image: '',
     title: 'MERN Stack Blog using Sanity.IO',
-    link: 'https://christopherjconley.com/Side_Projects/JS_Candy_Crush/index.html',
-    description: 'Javascript project to create a Candy Crush clone. Pure Javascript and CSS used to style page and create minimalist landscape background. Will posibly come back and expand upon this at a later time to add a leader board and connect to a database table to store scores and user names.'
+    link: '',
+    description: 'Created Blog using Sanity.IO for backend and used Node.js and Next.js for the front end. Built off of a tutorial from Code with Ania Kubów on YouTube.'
   }
 ]
 
