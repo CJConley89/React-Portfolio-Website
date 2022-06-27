@@ -1,8 +1,7 @@
 import React from 'react'
 import './PortfolioPersonal.css'
 import IMG1 from '../../assets/ArcGIS_API_Testing.PNG'
-import IMG2 from '../../assets/candy_crush.png'
-
+import IMG2 from '../../assets/travel-blog.png'
 const data = [
   {
     id: 1, 
@@ -13,9 +12,9 @@ const data = [
   },
   {
     id: 2, 
-    image: '',
+    image: IMG2,
     title: 'MERN Stack Blog using Sanity.IO',
-    link: '',
+    link: 'https://coral-app-donzf.ondigitalocean.app/',
     description: 'Created Blog using Sanity.IO for backend and used Node.js and Next.js for the front end. Built off of a tutorial from Code with Ania Kubów on YouTube.'
   }
 ]
