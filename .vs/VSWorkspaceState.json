@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\footer",
+    "\\src\\components\\nav"
   ],
+  "SelectedNode": "\\src\\components\\footer\\Footer.jsx",
   "PreviewInSolutionExplorer": false
 }
