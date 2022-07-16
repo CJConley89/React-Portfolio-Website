@@ -16,7 +16,7 @@ const data = [
     id: 2, 
     image: IMG2,
     title: 'MERN Stack Blog using Sanity.IO',
-    link: 'https://coral-app-donzf.ondigitalocean.app/',
+    link: 'https://travel-blog-tutorial.herokuapp.com/',
     description: 'Created Blog using Sanity.IO for backend and used Node.js and Next.js for the front end. Built off of a tutorial from Code with Ania Kubów on YouTube.'
   },
   {
@@ -24,7 +24,7 @@ const data = [
     image: IMG3,
     title: 'monday like clone',
     link: 'https://monday-clone-tau.vercel.app/',
-    description: 'Created a project task managment application using React.js, Node.js, Express, and Astra DB. Built off of a tutorial from Code with Ania Kubów on YouTube. Added functionaly to make the display responsive for tables and phones. Properly setup basic secuirty and a proxy to access the Astra DB from Vercel. Planning to come back and add authentication and the ability to login or signup.'
+    description: 'Created a project task management application using React.js, Node.js, Express, and Astra DB. Built off of a tutorial from Code with Ania Kubów on YouTube. Added functionaly to make the display responsive for tables and phones. Properly setup basic secuirty and a proxy to access the Astra DB from Vercel. Planning to come back and add authentication and the ability to login or signup.'
   }
 ]
 
