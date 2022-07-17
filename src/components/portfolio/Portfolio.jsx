@@ -24,7 +24,7 @@ const data = [
     image: IMG2,
     credit: 'Photo by Ferenc Almasi on Unsplash',
     title: 'Conference Department Portal',
-    description: 'This was another interal resource project. The Conference Department Portal was a solo project that was a new creation to replace their paper record keeping setup at the time. Setup a LAMP stack from scratch on new hardware, created digital version of all forms and documents required for the department using HTML, CSS, PHP, JS, jQuery, AJAX, JS, MySQL, and the Bootstrap 3 framework. This application also implemented the MVC framework, CodeIgniter.'
+    description: 'This was another internal resource project. The Conference Department Portal was a solo project that was a new creation to replace their paper record keeping setup at the time. Setup a LAMP stack from scratch on new hardware, created digital version of all forms and documents required for the department using HTML, CSS, PHP, JS, jQuery, AJAX, JS, MySQL, and the Bootstrap 3 framework. This application also implemented the MVC framework, CodeIgniter.'
   }
 ]
 
